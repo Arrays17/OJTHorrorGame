@@ -56,7 +56,10 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\lightSwitch.cs" />
     <Compile Include="Assets\Scripts\MouseLook.cs" />
+    <Compile Include="Assets\Scripts\StalkerTrigger.cs" />
+    <Compile Include="Assets\Scripts\Interactable.cs" />
     <Compile Include="Assets\Scripts\MannequinController.cs" />
     <Compile Include="Assets\Scripts\HallwayPasser.cs" />
     <Compile Include="Assets\Scripts\PlayerStatus.cs" />
@@ -64,12 +67,14 @@
     <Compile Include="Assets\Scripts\PeekingGhost.cs" />
     <Compile Include="Assets\Scripts\GhostMovement.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
-    <Compile Include="Assets\Scripts\MannequinRoom.cs" />
     <Compile Include="Assets\Scripts\Stalker.cs" />
-    <Compile Include="Assets\Scripts\StalkerTrigger.cs" />
+    <Compile Include="Assets\Scripts\ObjectClicker.cs" />
+    <Compile Include="Assets\Scripts\MannequinRoom.cs" />
+    <Compile Include="Assets\Scripts\ChasingLight.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Kevin Iglesias\3DCharacterDummy\Readme.txt" />
+    <None Include="Assets\Horror SFX - 082918\Notes.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
